@@ -1,0 +1,77 @@
+Database Design
+
+admin_user -> table
+	-id
+	-email
+	-password
+
+admin_project -> table
+	-id (project id)
+	-name (project name)
+	-user_id (project owner)
+	-file
+	-sample
+
+Knuvu File Data Structure
+meta
+	-add_id (incremented with every added element. Never decrements. Ensures no duplicate ID's)
+	-scoring
+		-fs[]		File Score
+				-candidate => 
+					-p (int) Performance Score
+					-r (int) Risk Score
+		-gs[]		Group Score
+			-id (int)
+			-score[]
+				-candidate => 
+					-p (int) Performance Score
+					-r (int) Risk Score
+competitor (candidate)
+	-name
+	-display_order
+group
+	-name
+	-display_order
+poa (point of analysis)
+	-name (string)
+	-display_order (int)
+	-group (string)
+	-performance_priority (1 - 10)
+	-cost_priority (1 - 10)
+	-rank_by (0, 1, 2) = (Absolute, Mean, Benchmark)
+	-scale (0, 1) = (low to high, high to low)
+	-benchmark (string)
+	-nt (0, 1, 2) = (none, file, group)		Nested Type
+	-nf (int) = admin_project.rfi_id		Nested File ID
+	-ng (int) = admin_project.file.group.id 		Nested Group ID
+dpoa (discrete point of analysis)
+	-poa
+	-competitor
+	-performance (1-10 or benchmarked)(High should be variable good or bad in the view)
+	-performance_label
+	-performance_risk
+	-cost (not going to be used in initial prototype)
+	-cost_label
+	-cost_risk
+
+
+admin_rfi -> table
+	-id
+	-name
+	-user_id (RFI owner)
+	-creation_date
+	-modified_date
+	-rfi
+
+admin_rfi_request -> table
+	-id
+	-rfi_id
+	-request_key (randomly generated password sent to the user via email.)
+	-email (Who is this request going to?)
+	-creation_date
+	-modified_date
+	-rfi_answers
+
+RFI Data Structure
+rfi
+	-levels

@@ -1,0 +1,40 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$route['default_controller'] = "maincontroller/index";
+$route['copy/(:any)'] = "maincontroller/copy/$1";
+$route['admin'] = "maincontroller/admin";
+$route['dashboard'] = "maincontroller/dashboard";
+$route['products'] = "maincontroller/products";
+$route['professional-services'] = "maincontroller/professionalservices";
+$route['training-support'] = "maincontroller/trainingsupport";
+$route['advisors'] = "maincontroller/advisors";
+$route['corp-development'] = "maincontroller/corpdevelopment";
+$route['consulting-and-transactional-services'] = "maincontroller/consultingtransaction";
+$route['contact-us'] = "maincontroller/contactus";
+$route['board-of-directors'] = "maincontroller/boarddirectors";
+$route['about'] = "maincontroller/about";
+$route['login'] = "maincontroller/login";
+$route['logout'] = "maincontroller/logout";
+$route['create/rfi'] = "maincontroller/createrfi";
+$route['create/capability'] = "maincontroller/createcapability";
+$route['create/(:any)'] = "maincontroller/create/$1";
+$route['delete/project/(:any)'] = "maincontroller/delete/$1";
+$route['delete/rfi/(:any)'] = "maincontroller/deleterfi/$1";
+$route['delete/capability/(:any)'] = "maincontroller/deletecapability/$1";
+$route['delete/(:any)/project/(:any)'] = "maincontroller/deletecapabilityproject/$1/$2";
+$route['delete/model/(:any)'] = "maincontroller/deletemodel/$1";
+$route['open/rfi/(:any)'] = "maincontroller/openrfi/$1";
+$route['open/capability/(:any)'] = "maincontroller/opencapability/$1";
+$route['open/(:any)/project/(:any)'] = "maincontroller/opencapabilityproject/$1/$2";
+$route['open/(:any)'] = "maincontroller/open/$1";
+$route['save/knuvu/(:any)/(:any)'] = "maincontroller/savecapabilityproject/$1/$2";
+$route['save/(:any)'] = "maincontroller/save/$1";
+$route['import/model'] = "maincontroller/importmodel";
+$route['import/(:any)'] = "maincontroller/import";
+$route['import'] = "maincontroller/importform";
+//Feeds
+$route['feed/project/meta/(:any)/(:any)'] = "maincontroller/projectmetafeed/$1/$2";
+$route['feed/project/(:any)/(:any)'] = "maincontroller/projectfeed/$1/$2";
+$route['feed/(:any)/projects/all/attributes/(:any)'] = "maincontroller/projectattributefeed/$1/$2";
+//End Feeds
+$route['404_override'] = '';

@@ -1,0 +1,38 @@
+div.rfi-builder {
+	margin: 15px 0px;
+	font-family: Arial;
+}
+div.rfi-level {
+	margin: 0px 0px 0px 20px;
+}
+div.rfi-level span.name {
+	font-size: 14px;
+	font-weight: 100;
+	vertical-align: middle;
+}
+div.rfi-question-group {
+
+}
+div.rfi-question-group span.name.poa-name {
+	color: #43A343;
+}
+div.rfi-question-group span.name.poa-section-name {
+	color: #1D1DAC;
+}
+div.rfi-question-group div.poa {
+	
+}
+div.rfi-question-group div.rfi-question-section {
+	margin: 0px 0px 0px 20px;
+}
+div.rfi-question-group div.rfi-question-section div.rfi-question {
+	margin: 0px 0px 0px 20px;
+}
+div.rfi-question-group div.rfi-question-section div.rfi-question span.question {
+	/*vertical-align: top;
+	font-size: 16px;*/
+	margin: 0px 0px 2px 10px;
+}
+div.rfi-question-group div.rfi-question-section div.rfi-question h3.question-label {
+	display: inline-block;
+}

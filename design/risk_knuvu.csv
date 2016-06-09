@@ -1,0 +1,21 @@
+,,,,Major Group 1,,,,Major Group 2,,,,Major Group 3,,,,,,,,
+,,,,Sub Group 1,,Subroup 2,,Subgroup 3,,,,Subgroup 4,,,Subgrup 5,,,Subgroup 6,,
+,,,,PoA1,PoA2,PoA3,PoA4,PoA5,PoA6,PoA7,PoA8,PoA9,PoA10,PoA11,PoA12,PoA13,PoA14,PoA15,PoA16,PoA17
+,,,priority,1,1,3,3,2,1,3,2,2,1,1,2,3,1,1,3,2
+Major Group 1,Subgroup 1,SubSubgroup 1,Candidate 1,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 2,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,SubSubgroup 2,Candidate 3,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,Subgroup 2,SubSubgroup 3,Candidate 4,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 5,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+Major Group 2,Subgroup 3,SubSubgroup 4,Candidate 6,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 7,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 8,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,Subgroup 4,SubSubgroup 5,Candidate 9,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 10,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,SubSubgroup 6,Candidate 11,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,Subgroup 5,SubSubgroup 7,Candidate 12,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 13,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+Major Group 3,Subgroup 6,SubSubgroup 8,Candidate 14,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 15,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,Subgroup 7,SubSubgroup 9,Candidate 16,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3
+,,,Candidate 17,3,1,2,2,1,0,1,3,2,1,0,0,2,3,1,0,3

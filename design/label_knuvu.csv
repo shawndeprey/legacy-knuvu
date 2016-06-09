@@ -1,0 +1,21 @@
+,,,,Major Group 1,,,,Major Group 2,,,,Major Group 3,,,,,,,,
+,,,,Sub Group 1,,Subroup 2,,Subgroup 3,,,,Subgroup 4,,,Subgrup 5,,,Subgroup 6,,
+,,,,PoA1,PoA2,PoA3,PoA4,PoA5,PoA6,PoA7,PoA8,PoA9,PoA10,PoA11,PoA12,PoA13,PoA14,PoA15,PoA16,PoA17
+,,,priority,1,1,3,3,2,1,3,2,2,1,1,2,3,1,1,3,2
+Major Group 1,Subgroup 1,SubSubgroup 1,Candidate 1,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 2,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,SubSubgroup 2,Candidate 3,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,Subgroup 2,SubSubgroup 3,Candidate 4,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 5,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+Major Group 2,Subgroup 3,SubSubgroup 4,Candidate 6,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 7,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 8,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,Subgroup 4,SubSubgroup 5,Candidate 9,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 10,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,SubSubgroup 6,Candidate 11,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,Subgroup 5,SubSubgroup 7,Candidate 12,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 13,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+Major Group 3,Subgroup 6,SubSubgroup 8,Candidate 14,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 15,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,Subgroup 7,SubSubgroup 9,Candidate 16,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
+,,,Candidate 17,no,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,yes,no,yes,no
